@@ -5,3 +5,7 @@ first day
 
 second day
   - 회원 관리 예제 (백엔드 개발)
+
+third day
+  - 스프링 빈과 의존관계
+  - 회원 관리 예제 - 웹 MVC 개발
