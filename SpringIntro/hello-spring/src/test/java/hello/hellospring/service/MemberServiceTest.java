@@ -49,20 +49,17 @@ class MemberServiceTest {
         IllegalStateException e = assertThrows(IllegalStateException.class,
                 () -> memberService.join(member2));//예외가 발생해야 한다.
         assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원입니다.");
-        /*
-        try{
-            memberService.join(member2);
-            fail();
-        } catch (IllegalStateException e){
-            assertThat(e.getMessage()).isEqualTo("이미 존재하는 회원");
-        }*/
-        //then
     }
     @Test
     void findMembers() {
+
     }
 
     @Test
     void findOne() {
+        Member member1 = new Member();
+        member1.setName("spring");
+
+        memberService.findOne(0L);
     }
 }
