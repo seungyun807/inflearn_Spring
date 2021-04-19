@@ -9,3 +9,8 @@ second day
 third day
   - 스프링 빈과 의존관계
   - 회원 관리 예제 - 웹 MVC 개발
+
+fourth day
+  - H2 데이터베이스 이용
+  - 순수 JDBC
+  - 스프링 통합 테스트
