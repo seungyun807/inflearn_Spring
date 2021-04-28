@@ -14,3 +14,6 @@ fourth day
   - H2 데이터베이스 이용
   - 순수 JDBC
   - 스프링 통합 테스트
+  
+  4 / 28
+- Jdbctemplate
