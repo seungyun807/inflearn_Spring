@@ -1,4 +1,4 @@
-< 인프런 spring 강의 >
+< 인프런 spring 입문 >
 
 first day
   - 스프링 웹 개바 기초
@@ -17,3 +17,5 @@ fourth day
   
   4 / 28
 - Jdbctemplate
+
+---- 수강 완료 ----
