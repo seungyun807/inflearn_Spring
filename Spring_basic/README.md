@@ -37,3 +37,15 @@
 - 스프링 컨테이너에 등록 되어있는 클래스라면 등록된 클래스를 찾아서 반환
 - 등록되지 않은 클래스라면 등록
 - 이렇게 스프링 컨테이너는 싱글톤을 보장, 항상 @Configuration과 @Bean을 같이 사용
+
+6 / 2
+>   ( 컴포넌트 스캔 )
+- 실제 개발시 많은 빈을 등록해야 하므로 자동으로 빈을 등록하는 컴포넌트 스캔
+- 또 의존관계도 자동으로 주입하는 @Autowired도 존재한다.
+- @ComponentScan을 설정 정보에 붙여준다.
+- @Component 에노테이션이 붙은 클래스를 스캔해서 스프링 빈으로 등록한다.
+- 탐색 위치는 디폴트는 해당 class가 있는 위치부터 하위로 탐색
+- basePackages를 통해 시작위치를 지정 할 수도 있다.
+- @Component, @Controller, @Service, @Repository, @Configuration도 자동 등록
+- includeFilters, excludeFilters를 통해 스캔 대상을 추가, 제외 할 수 있다.
+- 자동 빈 등록시 중복이면 충돌, 수동, 자동 빈 등록시 과거엔 오버라이드, 현재는 오류
