@@ -23,3 +23,11 @@
 - 전체, 단일 파라미터 조회가 가능하며 이름이 같은 복수 파라미터 조회도 가능함
 - response.getWriter() 를 통해 http에 문자열을 전송 가능하다.
 
+8 / 21
+>   ( 서블릿 )
+- Http 요청 데이터를 POST로 받는것, 단순 텍스트
+- JSON형태로도 받음 -> getInputStream() 로 데이터를 읽는다.
+- HttpServletResponse 단순 텍스트, HTML, JSON
+- setHeader()를 통해 content-type등 다양하게 설정 가능
+- getWriter()를 가져와 html에 print가능
+
